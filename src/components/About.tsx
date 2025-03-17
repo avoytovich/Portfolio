@@ -158,36 +158,23 @@ const About = () => (
                 modern software systems based on object-oriented languages
               </li>
               <li>HTML 5 app development fundamentals</li>
+              <li>
+                <div className="flex space-x-4">
+                  <p className="text-gray-700">
+                    Deployed project:{" "}
+                    <a
+                      href="https://cheapest-flight-fe.vercel.app"
+                      target="_blank"
+                      className="text-blue-500 hover:underline"
+                    >
+                      🌍✈️ Plan Adventure ✈️🌍
+                    </a>
+                  </p>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
-      </div>
-      {/* Design Pet Project */}
-      <div className="mt-8 flex items-center justify-end space-x-4">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="2"
-          stroke="currentColor"
-          className="w-6 h-6 text-blue-500"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M12 4.5v15m7.5-7.5h-15"
-          />
-        </svg>
-        <p className="text-gray-700">
-          <strong>project:</strong>{" "}
-          <a
-            href="https://cheapest-flight-fe.vercel.app"
-            target="_blank"
-            className="text-blue-500 hover:underline"
-          >
-            🌍✈️ Plan Your Next Adventure with Ryanair! ✈️🌍
-          </a>
-        </p>
       </div>
     </div>
   </section>
