@@ -182,6 +182,7 @@ const About = () => (
           <strong>project:</strong>{" "}
           <a
             href="https://cheapest-flight-fe.vercel.app"
+            target="_blank"
             className="text-blue-500 hover:underline"
           >
             🌍✈️ Plan Your Next Adventure with Ryanair! ✈️🌍
