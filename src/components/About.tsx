@@ -3,7 +3,8 @@ const About = () => (
     <div className="container mx-auto px-4">
       <h2 className="text-3xl font-bold mb-12 text-center">About Me</h2>
       <p className="text-gray-700 mb-6 text-center">
-        I’m a React (front-end) developer developer with 6 years in the IT industry
+        I’m a React (front-end) developer developer with 6 years in the IT
+        industry
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Address */}
@@ -65,8 +66,11 @@ const About = () => (
             />
           </svg>
           <p className="text-gray-700">
-            <strong>Email:</strong>{' '}
-            <a href="mailto:levanwork@gmail.com" className="text-blue-500 hover:underline">
+            <strong>Email:</strong>{" "}
+            <a
+              href="mailto:levanwork@gmail.com"
+              className="text-blue-500 hover:underline"
+            >
               levanwork@gmail.com
             </a>
           </p>
@@ -149,11 +153,40 @@ const About = () => (
               </p>
             </div>
             <ul className="text-gray-700 ml-6 list-disc">
-              <li>Completed a course in development, design, and architecture of modern software systems based on object-oriented languages</li>
+              <li>
+                Completed a course in development, design, and architecture of
+                modern software systems based on object-oriented languages
+              </li>
               <li>HTML 5 app development fundamentals</li>
             </ul>
           </div>
         </div>
+      </div>
+      {/* Design Pet Project */}
+      <div className="mt-8 flex items-center justify-end space-x-4">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth="2"
+          stroke="currentColor"
+          className="w-6 h-6 text-blue-500"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M12 4.5v15m7.5-7.5h-15"
+          />
+        </svg>
+        <p className="text-gray-700">
+          <strong>project:</strong>{" "}
+          <a
+            href="https://cheapest-flight-fe.vercel.app"
+            className="text-blue-500 hover:underline"
+          >
+            🌍✈️ Plan Your Next Adventure with Ryanair! ✈️🌍
+          </a>
+        </p>
       </div>
     </div>
   </section>
