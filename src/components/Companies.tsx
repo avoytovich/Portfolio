@@ -7,6 +7,11 @@ const Companies = () => (
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         {[
           {
+            name: "EPAM / ORACLE HEALTH",
+            description:
+              "Contributed to the development of Oracle Health applications as part of a multidisciplinary team, consisting of 10 frontend developers, 2 backend developers, a manual QA tester, a Business Analyst (BA), and a Project Manager (PM). \n Participated in building scalable and user-friendly healthcare solutions, focusing on enhancing patient care, streamlining workflows, and improving system interoperability. \n Collaborated closely with cross-functional stakeholders to meet project goals and deliver high-quality software aligned with Oracle Health's standards.",
+          },
+          {
             name: "TRINETIX / DELOITTE",
             description:
               "Contributed to the development of an audit management application using TypeScript, React and a Microservices architecture, ensuring scalability and maintainability. \n Collaborated closely with a cross-functional team (6 FE developers, 2 BE developers, 3 QA testers, 1 BA, 1 PM) to deliver high-quality features and improvements.\nDeveloped and optimized reusable React components, improving code efficiency and maintainability across the project.\nParticipated in Agile ceremonies, including daily stand-ups, sprint planning, and retrospectives, to align development efforts with project goals.\nConducted code reviews, debugging, and performance optimizations, ensuring a robust and efficient application.\nWorked closely with QA testers to resolve bugs, improve test coverage, and ensure a high-quality user experience.",
