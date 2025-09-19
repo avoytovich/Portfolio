@@ -161,14 +161,27 @@ const About = () => (
               <li>
                 <div className="flex space-x-4">
                   <p className="text-gray-700">
-                    Deployed project:{" "}
-                    <a
-                      href="https://cheapest-flight-fe.vercel.app"
-                      target="_blank"
-                      className="text-blue-500 hover:underline"
-                    >
-                      🌍✈️ Plan Adventure ✈️🌍
-                    </a>
+                    Deployed projects:{" "}
+                    <ul className="list-disc ml-6">
+                      <li>
+                        <a
+                          href="https://knowledges-tau.vercel.app"
+                          target="_blank"
+                          className="text-blue-500 hover:underline"
+                        >
+                          🌍📚 Knowledges 📚🌍
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://cheapest-flight-fe.vercel.app"
+                          target="_blank"
+                          className="text-blue-500 hover:underline"
+                        >
+                          🌍✈️ Plan Adventure ✈️🌍
+                        </a>
+                      </li>
+                    </ul>
                   </p>
                 </div>
               </li>
