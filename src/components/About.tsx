@@ -3,7 +3,7 @@ const About = () => (
     <div className="container mx-auto px-4">
       <h2 className="text-3xl font-bold mb-12 text-center">About Me</h2>
       <p className="text-gray-700 mb-6 text-center">
-        I’m a React (front-end) developer developer with 6 years in the IT
+        I’m a React (front-end) developer developer with 7 years in the IT
         industry
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -163,6 +163,15 @@ const About = () => (
                   <p className="text-gray-700">
                     Deployed projects:{" "}
                     <ul className="list-disc ml-6">
+                      <li>
+                        <a
+                          href="https://portfolio-five-delta-66.vercel.app"
+                          target="_blank"
+                          className="text-blue-500 hover:underline"
+                        >
+                          🌍📦 BuySellHub 📦🌍
+                        </a>
+                      </li>
                       <li>
                         <a
                           href="https://knowledges-tau.vercel.app"
