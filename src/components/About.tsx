@@ -165,7 +165,7 @@ const About = () => (
                     <ul className="list-disc ml-6">
                       <li>
                         <a
-                          href="https://portfolio-five-delta-66.vercel.app"
+                          href="https://marketplace-flame-kappa.vercel.app"
                           target="_blank"
                           className="text-blue-500 hover:underline"
                         >
