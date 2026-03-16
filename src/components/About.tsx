@@ -1,12 +1,12 @@
 const About = () => (
   <section className="py-20 bg-gray-100" id="about">
     <div className="container mx-auto px-4">
-      <h2 className="text-3xl font-bold mb-12 text-center">About Me</h2>
-      <p className="text-gray-700 mb-6 text-center">
-        I’m a React (front-end) developer developer with 7 years in the IT
+      <h2 className="text-3xl font-bold mb-6 text-center">About Me</h2>
+      <p className="text-gray-700 mb-24 text-center">
+        SOFTWARE ENGINEER <br /> 7 years in the IT
         industry
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-24">
         {/* Address */}
         <div className="flex items-start space-x-4">
           <svg
@@ -81,7 +81,7 @@ const About = () => (
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Languages */}
         <div>
-          <h3 className="text-xl font-bold text-center mb-4">Languages</h3>
+          <h3 className="text-xl font-bold text-center mb-8">Languages</h3>
           <div className="flex flex-col items-start space-y-2">
             <div className="flex items-start space-x-4">
               <svg
@@ -145,14 +145,14 @@ const About = () => (
 
         {/* Education */}
         <div>
-          <h3 className="text-xl font-bold text-center mb-4">Education</h3>
+          <h3 className="text-xl font-bold text-center mb-8">Education</h3>
           <div className="flex flex-col items-center space-y-2">
-            <div className="flex items-start space-x-4">
+            <div className="flex items-start space-x-4 mb-4">
               <p className="text-gray-700">
                 <strong>SOFTSERVE | IT ACADEMY:</strong> WebUI/NODE
               </p>
             </div>
-            <ul className="text-gray-700 ml-6 list-disc">
+            <ul className="text-gray-700 ml-6 list-disc space-y-4">
               <li>
                 Completed a course in development, design, and architecture of
                 modern software systems based on object-oriented languages
@@ -162,7 +162,7 @@ const About = () => (
                 <div className="flex space-x-4">
                   <p className="text-gray-700">
                     Deployed projects:{" "}
-                    <ul className="list-disc ml-6">
+                    <ul className="list-disc ml-6 space-y-2 mt-2">
                       <li>
                         <a
                           href="https://marketplace-flame-kappa.vercel.app"

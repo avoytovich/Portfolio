@@ -20,7 +20,7 @@ const Hero = () => (
         Hi, I’m <span className="text-blue-500">Andrii Voitovych</span>
       </h1>
       <p className="mt-4 text-lg md:text-xl text-gray-300">
-        a <span className="text-blue-400">React (front-end) developer</span> passionate about creating awesome web experiences
+        a <span className="text-blue-400">SOFTWARE ENGINEER</span> focused on <span className="text-blue-400">React (front-end) development</span> <br /> passionate about creating awesome web experiences
       </p>
     </div>
   </section>
