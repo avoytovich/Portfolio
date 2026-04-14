@@ -65,6 +65,17 @@ const Skills = () => (
           </ul>
         </div>
 
+        {/* AI / MACHINE LEARNING: */}
+        <div className="flex-1 min-w-[250px]">
+          <h3 className="text-xl font-semibold mb-2 text-center">AI / Machine Learning:</h3>
+          <ul className="text-gray-700 text-center">
+            <li>Prompt Engineering (LLMs)</li>
+            <li>Retrieval-Augmented Generation (RAG)</li>
+            <li>Embeddings & Vector Search</li>
+            <li>AI-driven data querying (Text-to-SQL)</li>
+          </ul>
+        </div>
+
         {/* VCS */}
         <div className="flex-1 min-w-[250px]">
           <h3 className="text-xl font-semibold mb-2 text-center">VCS:</h3>
