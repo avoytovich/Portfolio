@@ -114,8 +114,8 @@ const Companies = () => (
       </h2>
 
       <p className="text-center text-gray-600 max-w-3xl mx-auto mb-14">
-        Throughout my career, I've contributed to enterprise software across
-        healthcare, consulting, SaaS, e-commerce, education, and fintech,
+        Throughout my career, I&apos;ve contributed to enterprise software
+        across healthcare, consulting, SaaS, e-commerce, education, and fintech,
         building scalable web applications for international clients using
         modern JavaScript technologies.
       </p>
