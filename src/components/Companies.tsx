@@ -117,7 +117,7 @@ const Companies = () => (
         Throughout my career, I&apos;ve contributed to enterprise software
         across healthcare, consulting, SaaS, e-commerce, education, and fintech,
         building scalable web applications for international clients using
-        modern JavaScript technologies.
+        modern JavaScript technologies
       </p>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

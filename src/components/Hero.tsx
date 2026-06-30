@@ -21,10 +21,10 @@ const Hero = () => (
       </h1>
       <p className="mt-4 text-lg md:text-xl text-gray-300">
         a <span className="text-blue-400">SOFTWARE ENGINEER</span> <br />{" "}
-        Building scalable enterprise web applications with React, TypeScript and
-        Next.js. <br />
-        Currently exploring AI-powered applications and cloud-native
-        technologies.
+        building scalable enterprise web applications with React, TypeScript and
+        Next.js and <br />
+        currently exploring AI-powered applications and cloud-native
+        technologies
       </p>
     </div>
   </section>

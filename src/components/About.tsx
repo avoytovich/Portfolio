@@ -5,7 +5,7 @@ const About = () => (
       <p className="text-gray-700 mb-24 text-center">
         SOFTWARE ENGINEER | 7+ years of commercial experience <br />
         building enterprise web applications using <br />
-        React, TypeScript, Next.js, and modern JavaScript technologies.
+        React, TypeScript, Next.js and modern JavaScript technologies
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-24">
         {/* Address */}
