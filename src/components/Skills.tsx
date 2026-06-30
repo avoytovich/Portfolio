@@ -1,111 +1,105 @@
 const Skills = () => (
   <section className="py-16 bg-gray-50" id="skills">
     <div className="container mx-auto px-4">
-      <h2 className="text-3xl font-bold mb-12 text-center">Skills</h2>
-      <div className="flex flex-wrap justify-center gap-8">
-        
-        {/* Technologies/Languages */}
-        <div className="flex-1 min-w-[250px]">
-          <h3 className="text-xl font-semibold mb-2 text-center">Technologies/<br />Languages:</h3>
-          <ul className="text-gray-700 text-center">
-            <li>JavaScript</li>
-            <li>TypeScript</li>
-            <li>Node</li>
-            <li>Ruby</li>
-            <li>SQL</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SASS/SCSS</li>
-          </ul>
-        </div>
-        
-        {/* Bundlers */}
-        <div className="flex-1 min-w-[250px]">
-          <h3 className="text-xl font-semibold mb-2 text-center">Bundlers:</h3>
-          <ul className="text-gray-700 text-center">
-            <li>Webpack</li>
-          </ul>
-          {/* Application/Web servers */}
-          <div className="flex-1 min-w-[250px] mt-4">
-            <h3 className="text-xl font-semibold mb-2 text-center">Application/<br />Web servers:</h3>
-            <ul className="text-gray-700 text-center">
-              <li>Express</li>
-            </ul>
-            {/*DB/ORM*/}
-            <div className="flex-1 min-w-[250px] mt-4">
-              <h3 className="text-xl font-semibold mb-2 text-center">DB/ORM:</h3>
-              <ul className="text-gray-700 text-center mb-8">
-                <li>PostgreSQL / Sequelize</li>
-                <li>MongoDB / Mongoose</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+      <h2 className="text-3xl font-bold mb-12 text-center">
+        Technical Expertise
+      </h2>
 
-        {/* Libraries */}
-        <div className="flex-1 min-w-[250px]">
-          <h3 className="text-xl font-semibold mb-2 text-center">Libraries/<br />Frameworks:</h3>
-          <ul className="text-gray-700 text-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Frontend */}
+        <div className="bg-white rounded-xl shadow-sm p-6">
+          <h3 className="text-xl font-semibold mb-4">Frontend</h3>
+
+          <ul className="space-y-2 text-gray-700">
             <li>React</li>
-            <li>React Native</li>
             <li>Next.js</li>
+            <li>TypeScript</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Redux Toolkit</li>
+            <li>React Native</li>
+            <li>Material UI</li>
+          </ul>
+        </div>
+
+        {/* Backend */}
+        <div className="bg-white rounded-xl shadow-sm p-6">
+          <h3 className="text-xl font-semibold mb-4">Backend & APIs</h3>
+
+          <ul className="space-y-2 text-gray-700">
+            <li>Node.js</li>
+            <li>Express.js</li>
             <li>GraphQL</li>
-            <li>Redux</li>
-            <li>Material-UI</li>
+            <li>REST APIs</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
           </ul>
         </div>
 
-        {/*Code editors/Development tools/Issue tracking*/}
-        <div className="flex-1 min-w-[250px]">
-          <h3 className="text-xl font-semibold mb-2 text-center">Code editors/<br />Development tools</h3>
-          <ul className="text-gray-700 text-center">
-            <li>VSCode</li>
-            <li>WebStorm</li>
-            <li>Postman</li>
+        {/* Engineering */}
+        <div className="bg-white rounded-xl shadow-sm p-6">
+          <h3 className="text-xl font-semibold mb-4">Software Engineering</h3>
+
+          <ul className="space-y-2 text-gray-700">
+            <li>Component Architecture</li>
+            <li>Application Modernization</li>
+            <li>Performance Optimization</li>
+            <li>Responsive Design</li>
+            <li>Clean Code</li>
+            <li>Code Reviews</li>
+            <li>Agile (Scrum)</li>
           </ul>
         </div>
 
-        {/* AI / MACHINE LEARNING: */}
-        <div className="flex-1 min-w-[250px]">
-          <h3 className="text-xl font-semibold mb-2 text-center">AI / Machine Learning:</h3>
-          <ul className="text-gray-700 text-center">
-            <li>Prompt Engineering (LLMs)</li>
-            <li>Retrieval-Augmented Generation (RAG)</li>
-            <li>Embeddings & Vector Search</li>
-            <li>AI-driven data querying (Text-to-SQL)</li>
-          </ul>
-        </div>
+        {/* Cloud */}
+        <div className="bg-white rounded-xl shadow-sm p-6">
+          <h3 className="text-xl font-semibold mb-4">Cloud & DevOps</h3>
 
-        {/* VCS */}
-        <div className="flex-1 min-w-[250px]">
-          <h3 className="text-xl font-semibold mb-2 text-center">VCS:</h3>
-          <ul className="text-gray-700 text-center">
+          <ul className="space-y-2 text-gray-700">
+            <li>Microsoft Azure</li>
             <li>Git</li>
-            <li>GitHub</li>
-            <li>BitBucket</li>
+            <li>CI/CD</li>
+            <li>
+              Docker <span className="text-gray-400">(Learning)</span>
+            </li>
+            <li>
+              GitHub Actions <span className="text-gray-400">(Learning)</span>
+            </li>
+            <li>
+              Azure DevOps <span className="text-gray-400">(Learning)</span>
+            </li>
           </ul>
         </div>
 
-        {/* Operating Systems */}
-        <div className="flex-1 min-w-[250px]">
-          <h3 className="text-xl font-semibold mb-2 text-center">Operating Systems</h3>
-          <ul className="text-gray-700 text-center">
-            <li>MacOS</li>
-            <li>Linux(Ubuntu)</li>
-            <li>Windows</li>
-          </ul>
-        </div>
+        {/* Tooling */}
+        <div className="bg-white rounded-xl shadow-sm p-6">
+          <h3 className="text-xl font-semibold mb-4">Tooling</h3>
 
-        {/* Issue Tracking */}
-        <div className="flex-1 min-w-[250px]">
-          <h3 className="text-xl font-semibold mb-2 text-center">Issue Tracking</h3>
-          <ul className="text-gray-700 text-center">
+          <ul className="space-y-2 text-gray-700">
+            <li>Webpack</li>
+            <li>Vite</li>
+            <li>Gulp</li>
+            <li>Postman</li>
             <li>Jira</li>
-            <li>Azure</li>
-            <li>Confluence</li>
+            <li>GitHub</li>
           </ul>
         </div>
 
+        {/* AI */}
+        <div className="bg-white rounded-xl shadow-sm p-6">
+          <h3 className="text-xl font-semibold mb-4">
+            AI & Modern Development
+          </h3>
+
+          <ul className="space-y-2 text-gray-700">
+            <li>Prompt Engineering</li>
+            <li>
+              OpenAI API <span className="text-gray-400">(Learning)</span>
+            </li>
+            <li>Retrieval-Augmented Generation (RAG)</li>
+            <li>Vector Embeddings</li>
+            <li>AI-assisted Development</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>

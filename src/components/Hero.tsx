@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 const Hero = () => (
   <section
@@ -9,7 +9,7 @@ const Hero = () => (
       {/* Profile Photo */}
       <div className="relative w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
         <Image
-          src="/avatar_v3.jpg" // Replace with your image path
+          src="/avatar_v1.jpg" // Replace with your image path
           alt="Profile Picture"
           fill
           className="object-cover"
@@ -20,11 +20,14 @@ const Hero = () => (
         Hi, I’m <span className="text-blue-500">Andrii Voitovych</span>
       </h1>
       <p className="mt-4 text-lg md:text-xl text-gray-300">
-        a <span className="text-blue-400">SOFTWARE ENGINEER</span> focused on <span className="text-blue-400">React (front-end) development</span> <br /> passionate about creating awesome web experiences
+        a <span className="text-blue-400">SOFTWARE ENGINEER</span> <br />{" "}
+        Building scalable enterprise web applications with React, TypeScript and
+        Next.js. <br />
+        Currently exploring AI-powered applications and cloud-native
+        technologies.
       </p>
     </div>
   </section>
 );
 
 export default Hero;
-

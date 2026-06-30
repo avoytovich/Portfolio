@@ -3,8 +3,9 @@ const About = () => (
     <div className="container mx-auto px-4">
       <h2 className="text-3xl font-bold mb-6 text-center">About Me</h2>
       <p className="text-gray-700 mb-24 text-center">
-        SOFTWARE ENGINEER <br /> 7 years in the IT
-        industry
+        SOFTWARE ENGINEER | 7+ years of commercial experience <br />
+        building enterprise web applications using <br />
+        React, TypeScript, Next.js, and modern JavaScript technologies.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-24">
         {/* Address */}
@@ -99,7 +100,7 @@ const About = () => (
                 />
               </svg>
               <p className="text-gray-700">
-                <strong>English:</strong> Upper-Intermediate
+                <strong>English:</strong> Upper-Intermediate | B2
               </p>
             </div>
             <div className="flex items-start space-x-4">
@@ -118,7 +119,7 @@ const About = () => (
                 />
               </svg>
               <p className="text-gray-700">
-                <strong>Polish:</strong> Pre-intermediate
+                <strong>Polish:</strong> Pre-intermediate | A2
               </p>
             </div>
             <div className="flex items-start space-x-4">
@@ -137,7 +138,7 @@ const About = () => (
                 />
               </svg>
               <p className="text-gray-700">
-                <strong>Ukrainian:</strong> Native
+                <strong>Ukrainian:</strong> Native | C2
               </p>
             </div>
           </div>
